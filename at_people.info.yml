@@ -1,0 +1,14 @@
+name: People
+description: 'Provides People content type and related configuration. People for Arrowtrade'
+type: module
+core: 8.x
+dependencies:
+  - draggableviews
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - text
+  - user
+  - views

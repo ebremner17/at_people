@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: at_is_people
+label: 'AT people'
+effects:
+  a2e1a2ee-cee2-4e0b-bb28-12cc3d127455:
+    uuid: a2e1a2ee-cee2-4e0b-bb28-12cc3d127455
+    id: image_scale
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      upscale: false

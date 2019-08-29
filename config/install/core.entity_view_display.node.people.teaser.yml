@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.people
+  module:
+    - user
+id: node.people.teaser
+targetEntityType: node
+bundle: people
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
